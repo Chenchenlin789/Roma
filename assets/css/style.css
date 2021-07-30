@@ -1,32 +1,135 @@
-@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto:wght@100&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
+span {
+    color: white;
+}
+
 section {
     background-image: url(../img/cleo-topper.jpg)
-
 }
-p {
+
+header img {
     text-align: right;
-    font-size: 20px;
-    border-bottom: 1px solid #e7bc0e;
 }
 
-  img {
-      height: 10px;
-      position: relative;
-      right: 50px;
-      
-  }
+header img {
+    height: 20px;
+    text-align: right; 
+}
+
+header p {
+    font-size: 15px;
+    border-bottom: 1px solid #e7bc0e;
+    color: white;
+    display: inline;
+    text-align: right;
+}
 
   .roma {
     background-image: url("../img/cleo-topper.jpg");
-    min-height: 500vh;
+    min-height: 300vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
+
+  h1 {
+      width: 320px;
+      margin-left: 10%;
+      margin-top: 6%;
+      font-size: 55px;
+      font-weight: 800;
+  }
+
+  h3 {
+      color: #e7bc0e;
+      font-family: 'Mr Dafoe', cursive;
+      margin-left: 10%;
+      margin-top: 10%;
+      font-size: 30px;
+  }
+
+  main p {
+    margin: 270px 15% 80px ;
+    color: #6bc1a3;
+    line-height: 55px;
+    font-size: 40px;
+    line-height: 1.6;
+    font-weight: 500;
+  }
+
+main img {
+    margin-left: 15%;
+    margin-top: 30%;
+    height: 165px;
+    width: 165px;
+}
+
+main h2 {
+    color: #e7bc0e;
+    width: 100%;
+    font-size: 20vh;
+    font-weight: 700;
+    padding-left: 15%;
+    margin-bottom: 0;
+}
+
+main h3 {
+    color: #e7bc0e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vh;
+    margin-top: 0;
+    margin-left: 15%;
+}
+
+.pay {
+    color:  #cb91b6 ;
+}
+
+main h4 {
+    padding-top: 55px;
+    margin-left: 15%;
+    font-size: 5vh;
+
+}
+
+.health {
+    color: #6bc1a3;
+}
+
+section p:last-child {
+    color: #7eb8e1;
+    line-height: 55px;
+    font-size: 40px;
+    line-height: 1.6;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 20vh;
+    padding-top: 20vh;
+    margin-left: 50%;
+    margin-right: 10%;
+ 
+}
+
+/* last page */
+
+.kid {
+   background-image: url(assets/img/kid.png), url(../img/see.png);
+   min-height: 80vh;
+}
+
+
+
+/* footer */
+  footer { 
+      padding: 10%;
+      background-color: black;
+  }
