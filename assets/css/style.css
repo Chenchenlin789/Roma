@@ -6,6 +6,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: white;
 }
+
 span {
     color: white;
 }
@@ -15,17 +16,15 @@ section {
 }
 
 header img {
-    text-align: right;
-}
-
-header img {
     height: 20px;
-    text-align: right; 
+    padding-left: 78%; 
+    padding-right: 2%;
+    margin-top: 1%; 
 }
 
-header p {
+header h5 {
     font-size: 15px;
-    border-bottom: 1px solid #e7bc0e;
+    border-bottom: 2px solid #e7bc0e;
     color: white;
     display: inline;
     text-align: right;
@@ -75,11 +74,11 @@ main img {
 
 main h2 {
     color: #e7bc0e;
-    width: 100%;
     font-size: 20vh;
     font-weight: 700;
     padding-left: 15%;
     margin-bottom: 0;
+    padding-top: 35px;
 }
 
 main h3 {
@@ -91,15 +90,19 @@ main h3 {
 }
 
 .pay {
-    color:  #cb91b6 ;
+    color:  #cb91b6;
+   margin-bottom: 0;
+    margin-top: 0;
+
 }
 
 main h4 {
-    padding-top: 55px;
+    padding-top: 165px;
+    padding-bottom: 0;
     margin-left: 15%;
     font-size: 5vh;
-
 }
+
 
 .health {
     color: #6bc1a3;
@@ -119,11 +122,13 @@ section p:last-child {
  
 }
 
-/* last page */
+/* kid + see */
 
 .kid {
-   background-image: url(assets/img/kid.png), url(../img/see.png);
-   min-height: 80vh;
+   background-image: url(../img/kid.png), url(../img/see.png);
+   height: 100vh;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 
 
@@ -132,4 +137,30 @@ section p:last-child {
   footer { 
       padding: 10%;
       background-color: black;
+      height: 100vh;
+      color: white;
   }
+
+
+footer h2 {
+    font-size: 4em;
+    width: 60%;
+}
+
+footer button {
+    font-size: 2em;
+    background: black;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 20px;
+    margin-top: 5%;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 30%;
+}
+
+footer span {
+    color:#6bc1a3;
+}
