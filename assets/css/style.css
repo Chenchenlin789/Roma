@@ -33,6 +33,7 @@ header h5 {
   .roma {
     background-image: url("../img/cleo-topper.jpg");
     min-height: 300vh;
+    position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -134,31 +135,39 @@ section p:last-child {
 
 
 /* footer */
-  footer { 
-      padding: 10%;
-      background-color: black;
-      height: 100vh;
-      color: white;
-  }
-
-
-footer h2 {
-    font-size: 4em;
-    width: 60%;
+.improve { 
+    padding: 0 10%;
+    background-color: black;
+    height: 95vh;
+    color: white;
+}
+footer{
+    padding: 0 10%;
+    background-color: black;
+    height: 5vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer > p{
+    margin: 0;
 }
 
-footer button {
+.improve h2 {
+    font-size: 4em;
+    width: 60%;
+    margin: 0;
+    padding-top: 15%;
+}
+
+.improve button {
     font-size: 2em;
     background: black;
     color: white;
     border: 2px solid white;
     padding: 15px 20px;
     margin-top: 5%;
-}
-
-footer p {
-    text-align: center;
-    margin-top: 30%;
 }
 
 footer span {
